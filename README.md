@@ -1,6 +1,6 @@
 # Sunset theme for ARGVUS
 
-Official ARGVUS Dark theme, `sunset`, with its Sticky and Float variants.
+Official ARGVUS Dark theme, `sunset`, with its Sticky and Spaced variants.
 
 [![CI](https://github.com/argvus/argvus-theme-sunset/actions/workflows/ci.yml/badge.svg)](https://github.com/argvus/argvus-theme-sunset/actions/workflows/ci.yml)
 [![Release](https://github.com/argvus/argvus-theme-sunset/actions/workflows/release.yml/badge.svg)](https://github.com/argvus/argvus-theme-sunset/actions/workflows/release.yml)
@@ -15,7 +15,7 @@ Official ARGVUS Dark theme, `sunset`, with its Sticky and Float variants.
 
 | Field | Value |
 | --- | --- |
-| Theme ID | `sunset` (Float variant: `sunset-float`) |
+| Theme ID | `sunset` (Spaced variant: `sunset-spaced`) |
 | Display name | Sunset |
 | Mode | `dark` |
 | Default highlight | `#E2BE8A` |
@@ -45,7 +45,7 @@ The package installs the theme manifest,
 the palette), the templates it overrides under `overrides/` when it has any, and its
 wallpapers under `/usr/share/backgrounds/argvus`. The files of every component are
 rendered from the palette by the component's own templates when the theme is applied,
-for Sticky and Float alike. `argvus theme check src/usr/share/argvus/themes/sunset`
+for Sticky and Spaced alike. `argvus theme check src/usr/share/argvus/themes/sunset`
 renders them all and reports any error.
 
 ## Development
